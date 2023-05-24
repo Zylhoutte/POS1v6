@@ -195,7 +195,7 @@ const handleModalOpen = (rowData) => {
                 </div>
                 <div className="group">
                     <span>Total Amount:</span>
-                    <span><b>₱{selectedBill?.totalAmount}</b></span>
+                    <span><b>₱{selectedBill?.total}</b></span>
                 </div>
             </div>
             <div className="cardFooter">
@@ -221,7 +221,7 @@ const handleModalOpen = (rowData) => {
                 <div className="footerCardTotal">
                     <div className="group">
                         <h3>Total:</h3>
-                        <h3><b>${selectedBill?.totalAmount}</b></h3>
+                        <h3><b>₱{selectedBill?.total}</b></h3>
                     </div>
                 </div>
                 <div className="footerThanks">
